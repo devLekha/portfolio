@@ -7,10 +7,9 @@ var FA = require('react-fontawesome')
 export const Home = () => {
     let myStyle = {
         position: "relative",
-        height: '90vh',
         textAlign: 'center',
         padding: "30px",
-        width: '700px'
+        width: '70%'
     }
     let picStyle = {
         width: '170px',
@@ -23,7 +22,7 @@ export const Home = () => {
         color: 'black'
     }
     return (
-        <div style={{ backgroundImage: "linear-gradient(white, blue)"}}>
+        <div style={{ backgroundImage: "linear-gradient(white, blue)",  width: '100%'}}>
         <div className="container" style={myStyle}>
             < img src={img1} style={picStyle} alt=" profile pic" />
             <h1>Lekha Saraf</h1>
