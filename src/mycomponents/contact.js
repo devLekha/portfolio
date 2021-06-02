@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Contact = () => {
     return (
-        <div class="card">
+        <div class="card" style={{backgroundImage: 'linear-gradient(purple, white)'}}>
   <div class="card-body">
       <h3>Contact Me:</h3>
          <ul>

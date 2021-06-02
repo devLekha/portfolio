@@ -22,7 +22,7 @@ export const Home = () => {
         color: 'black'
     }
     return (
-        <div style={{ backgroundImage: "linear-gradient(white, blue)",  width: '100%'}}>
+        <div style={{ backgroundImage: "radial-gradient(purple, white)",  width: '100%'}}>
         <div className="container" style={myStyle}>
             < img src={img1} style={picStyle} alt=" profile pic" />
             <h1>Lekha Saraf</h1>
@@ -30,7 +30,7 @@ export const Home = () => {
             <p>Have a look at my skillset and career graph for more information.</p>
             <div className="resume">
                  <Link to='/career'>
-                <button  type="button" class="btn btn-dark">Career Details</button>
+                <button  type="button" class="btn btn-warning">Career Details</button>
                 </Link>
             </div>
             <br>

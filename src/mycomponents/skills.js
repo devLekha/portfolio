@@ -1,9 +1,11 @@
 import React from 'react'
 // import {Graph} from './graph.js'
 export const Skills = () => {
-
+    var skillStyle = {
+        backgroundImage: 'linear-gradient(45deg, purple, white)'
+    }
     return (
-        <>
+        <div style={skillStyle}>
             <h3>Skills and Education:</h3>
             <div className="container my-2" >
                 <h5>Professional Summary:</h5>
@@ -83,6 +85,6 @@ export const Skills = () => {
                 </table>
                 <br />
             </div>
-        </>
+        </div>
     )
 }
