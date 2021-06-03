@@ -25,7 +25,7 @@ export const Home = () => {
         color: 'black'
     }
     return (
-        <div style={{ backgroundImage: 'liner-gradient(pruple, white)',  width: '100%'}}>
+        <div style={{ backgroundImage: 'linear-gradient(purple, white)',  width: '100%'}}>
         <div className="container" style={myStyle}>
             < img src={img1} style={picStyle} alt=" profile pic" />
             <h1>Lekha Saraf</h1>
