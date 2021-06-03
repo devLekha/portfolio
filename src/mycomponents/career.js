@@ -1,18 +1,18 @@
 import React from 'react';
 import ReactEcharts from 'echarts-for-react';
-
 export const Career = () => {
     var Cstyle = {
-        backgroundImage: 'linear-gradient(to right, purple, white)'
+        backgroundImage: 'linear-gradient(to right, purple, white)',
     }
+
     return (
-        <div style={Cstyle}>
+        <div style={Cstyle} >
             <div className="container">
-                <h3>Professional Summary:</h3>
+                <h3 style={{ color: "orange" }}>Professional Summary:</h3>
                 <p> Worked as Associate Software Engineer for 10 months and have around 1 year of experience as a Jr.  Developer with 4 months of internship as Blockchain Developer.</p>
-                <h5>Career Contour:</h5>
+                <h5 style={{ color: "orange" }}>Career Contour:</h5>
                 <table >
-                    <tr>
+                    <tr style={{ color: "orange" }}>
                         <th> Organization</th>
                         <th> Designation</th>
                         <th> Tenure</th>

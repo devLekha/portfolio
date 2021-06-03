@@ -1,17 +1,16 @@
 import React from 'react'
-// import {Graph} from './graph.js'
 export const Skills = () => {
     var skillStyle = {
         backgroundImage: 'linear-gradient(45deg, purple, white)'
     }
     return (
         <div style={skillStyle}>
-            <h3>Skills and Education:</h3>
+            <h3 style={{ color: "orange" }}>Skills and Education:</h3>
             <div className="container my-2" >
-                <h5>Professional Summary:</h5>
+                <h5 style={{ color: "orange" }}>Professional Summary:</h5>
                 <h6> Having an interest in learning new technology, I started my career as Blockchain Developer then as a Backend Developer now slowly gripping my command on frontend technology. I am here on my Journey to become a Professional Full-stack Developer.
             </h6>
-                <h5>Skills:</h5>
+                <h5 style={{ color: "orange" }}>Skills:</h5>
                 <table >
                     <tr>
                         <td>Programming Languages :</td>
@@ -44,7 +43,7 @@ export const Skills = () => {
                 </table>
             </div>
             <div className="container">
-                <h5>Tranings/Certifications:</h5>
+                <h5 style={{ color: "orange" }}>Tranings/Certifications:</h5>
                 <ul>
                     <li>Completed "Introduction to Networking" (Quick course) from Udemy on Jan 20, 2020.</li>
                     <li>Completed "Introductory to JavaScript- Learn the Basics of JavaScript" Certification course from Udemy on Jan 20, 2020.</li>
@@ -52,9 +51,9 @@ export const Skills = () => {
                     <li>Embedded System Designing with Score - 64% from Jun’17 to Dec’17(6 Months) from Vector Institute, Hyderabad</li>
                     <li>Communication System course of 15 days from BRBRAITT (BSNL), Jbp</li>
                 </ul>
-                <h5>Educational Details:</h5>
+                <h5 style={{ color: "orange" }}>Educational Details:</h5>
                 <table >
-                    <tr>
+                    <tr style={{ color: "orange" }}>
                         <th>Qualification</th>
                         <th>Branch</th>
                         <th>University</th>

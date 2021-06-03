@@ -4,7 +4,7 @@ export const Contact = () => {
     return (
         <div class="card" style={{backgroundImage: 'linear-gradient(purple, white)'}}>
   <div class="card-body">
-      <h3>Contact Me:</h3>
+      <h3 style={{color:"orange"}}>Contact Me:</h3>
          <ul>
              <li>Phone No: +91-9424624464</li>
              <li>Email: lekhasaraf09@gmail.com</li>

@@ -6,6 +6,9 @@ var FA = require('react-fontawesome')
 
 export const Home = () => {
     let myStyle = {
+        backgroundImage: "url(./bg.png)",
+        backgroundRepeat:'no-repeat',
+          backgroundSize: 'cover',
         position: "relative",
         textAlign: 'center',
         padding: "30px",
@@ -22,11 +25,11 @@ export const Home = () => {
         color: 'black'
     }
     return (
-        <div style={{ backgroundImage: "radial-gradient(purple, white)",  width: '100%'}}>
+        <div style={{ backgroundImage: 'liner-gradient(pruple, white)',  width: '100%'}}>
         <div className="container" style={myStyle}>
             < img src={img1} style={picStyle} alt=" profile pic" />
             <h1>Lekha Saraf</h1>
-            <h4 style={{color:"yellow"}}>Hello, I am Lekha Saraf. I am a Web Developer want to work as a freelancer. I am from Jabalpur, MP(India), looking for Remote projects.</h4>
+            <h4 style={{color:"orange"}}>Hello, I am Lekha Saraf. I am a Web Developer want to work as a freelancer. I am from Jabalpur, MP(India), looking for Remote projects.</h4>
             <p>Have a look at my skillset and career graph for more information.</p>
             <div className="resume">
                  <Link to='/career'>
